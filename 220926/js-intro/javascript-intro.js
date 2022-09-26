@@ -38,24 +38,19 @@ const obj = {
     key4: arr,
 }
 
-console.log(obj);
-console.log('--------------');
-console.log(arr);
-console.log('--------------');
 
-bool = false;
-arr[1] = 'notathing';
-console.log('--------------');
+// GREETING if/else statement
+let isArriving = true;
 
+let greeting;
 
-console.log(obj);
-console.log(bool);
-console.log(arr);
-console.log('--------------');
+if (isArriving) {
+    greeting = '😃';
+} else {
+    greeting = 'Bye-bye!';
+}
 
-console.log('--------------');
-console.log('--------------');
-console.log('--------------');
-console.log('--------------');
+console.log(greeting);
 
+// string = 'try to change this';
 
