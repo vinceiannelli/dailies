@@ -6,3 +6,10 @@ console.error('stop this!');
 console.debug('debug');
 console.warn('warn');
 console.info('info');
+
+
+const greeting = 'hello';
+const noun = 'world';
+const expletive = 'bitches';
+
+console.log(greeting + ' ' + noun + ' ' + expletive);
