@@ -5,20 +5,20 @@
 // let isSnowOrIce = true; // do I need my winter bike?
 // let isChildComing = false; // is Cedar coming?
 
-const whichBike = (isSnowOrIce) => {
-    if (!isSnowOrIce) {
-        console.log('Get my summer bike.');
-    } else {
-        console.log('Get my winter bike.');
-    }
-}
+const { daycare } = require('./daycare.js');
 
-const daycare = (isChildComing) => {
-    if (isChildComing) {
-        console.log('Get Cedar sat and put on her helmet.');
-        console.log('Bike to daycare.');
-        console.log('Drop off Cedar at her classroom.');
-    }
+const { putOnHelmet } = require('./putOnHelmet.js');
+const { whichBike } = require("./whichBike");
+
+const encounterDog = () => {
+    const dogNames = [ 'Jessica', 'Janet', 'Jordan', 'Jasmine' ];
+
+    const randomIndex = Math.floor(Math.random() * dogNames.length);
+
+    const dog = dogNames[randomIndex];
+    console.log(`Avoid an aggresive barking dog named ${dog}.`);
+
+
 }
 
 const bikeToWork = (isSnowOrIce, isChildComing) => {
@@ -28,6 +28,8 @@ const bikeToWork = (isSnowOrIce, isChildComing) => {
     putOnHelmet();
 
     daycare(isChildComing);
+
+    encounterDog();
 
     console.log('Bike to library.');
     console.log('Take off helmet and lock bike.');
