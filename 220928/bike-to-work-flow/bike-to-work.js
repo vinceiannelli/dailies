@@ -5,42 +5,45 @@
 // let isSnowOrIce = true; // do I need my winter bike?
 // let isChildComing = false; // is Cedar coming?
 
-const { daycare } = require('./daycare.js');
+const { daycare } = require("./daycare.js");
 
-const { putOnHelmet } = require('./putOnHelmet.js');
+const { putOnHelmet } = require("./putOnHelmet.js");
 const { whichBike } = require("./whichBike");
 
 const encounterDog = () => {
-    const dogNames = [ 'Jessica', 'Janet', 'Jordan', 'Jasmine' ];
+  const dogNames = [
+    { name: "Jessica", breed: "poodle", numberoflegs: 4 },
+    { name: "Janet", breed: "collie", numberoflegs: 3 },
+    { name: "Jordan", breed: "doodle", numberoflegs: 4 },
+    { name: "Jasmine", breed: "pitbull", numberoflegs: 3 },
+  ];
 
-    const randomIndex = Math.floor(Math.random() * dogNames.length);
+  const randomIndex = Math.floor(Math.random() * dogNames.length);
 
-    const dog = dogNames[randomIndex];
-    console.log(`Avoid an aggresive barking dog named ${dog}.`);
-
-
-}
+  const dog = dogNames[randomIndex];
+  console.log(
+    `Avoid an aggresive barking dog named ${dog.name}, an ugly ${dog.breed} with ${dog.numberoflegs} legs.`
+  );
+};
 
 const bikeToWork = (isSnowOrIce, isChildComing) => {
-    
-    whichBike(isSnowOrIce);
-    
-    putOnHelmet();
+  whichBike(isSnowOrIce);
 
-    daycare(isChildComing);
+  putOnHelmet();
 
-    encounterDog();
+  daycare(isChildComing);
 
-    console.log('Bike to library.');
-    console.log('Take off helmet and lock bike.');
-}
-console.log('----');
-bikeToWork (true, true);
-console.log('----');
-bikeToWork (true, false);
-console.log('----');
-bikeToWork (false, true);
-console.log('----');
-bikeToWork (false, false);
-console.log('----');
+  encounterDog();
 
+  console.log("Bike to library.");
+  console.log("Take off helmet and lock bike.");
+};
+console.log("----");
+bikeToWork(true, true);
+console.log("----");
+bikeToWork(true, false);
+console.log("----");
+bikeToWork(false, true);
+console.log("----");
+bikeToWork(false, false);
+console.log("----");
