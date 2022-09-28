@@ -25,6 +25,7 @@ const string = 'this is a bunch of letters';
 let num = 23 + 24;
 
 // boolean (true or false)
+// get used to nameing bool variables with 'is' or 'has' or something similar
 let bool = 1 < 2; // outputs as TRUE
 
 // array (list or collection of data types)
