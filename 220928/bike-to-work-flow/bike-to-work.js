@@ -11,33 +11,34 @@ const { putOnHelmet } = require("./putOnHelmet.js");
 const { whichBike } = require("./whichBike");
 
 const encounterDog = () => {
-  const dogNames = [
-    { name: "Jessica", breed: "poodle", numberoflegs: 4 },
-    { name: "Janet", breed: "collie", numberoflegs: 3 },
-    { name: "Jordan", breed: "doodle", numberoflegs: 4 },
-    { name: "Jasmine", breed: "pitbull", numberoflegs: 3 },
-  ];
+	const dogNames = [
+		{ name: "Jessica", breed: "poodle", numberoflegs: 4 },
+		{ name: "Janet", breed: "collie", numberoflegs: 3 },
+		{ name: "Jordan", breed: "doodle", numberoflegs: 4 },
+		{ name: "Jasmine", breed: "pitbull", numberoflegs: 3 },
+	];
 
-  const randomIndex = Math.floor(Math.random() * dogNames.length);
+	const randomIndex = Math.floor(Math.random() * dogNames.length);
 
-  const dog = dogNames[randomIndex];
-  console.log(
-    `Avoid an aggresive barking dog named ${dog.name}, an ugly ${dog.breed} with ${dog.numberoflegs} legs.`
-  );
+	const dog = dogNames[randomIndex];
+	console.log(
+		`Avoid an aggresive barking dog named ${dog.name}, an ugly ${dog.breed} with ${dog.numberoflegs} legs.`
+	);
 };
 
 const bikeToWork = (isSnowOrIce, isChildComing) => {
-  whichBike(isSnowOrIce);
+	whichBike(isSnowOrIce);
 
-  putOnHelmet();
+	putOnHelmet();
 
-  daycare(isChildComing);
+	daycare(isChildComing);
 
-  encounterDog();
+	encounterDog();
 
-  console.log("Bike to library.");
-  console.log("Take off helmet and lock bike.");
+	console.log("Bike to library.");
+	console.log("Take off helmet and lock bike.");
 };
+
 console.log("----");
 bikeToWork(true, true);
 console.log("----");
