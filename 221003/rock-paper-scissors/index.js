@@ -1,5 +1,8 @@
 // const readlineSync = require("readline-sync");
 import rl from "readline-sync";
+import Afplay from "afplay";
+
+let player = new Afplay();
 
 console.log(`Welcome to two-player Rock Paper Scissors!`);
 
@@ -106,14 +109,11 @@ function checkValueChoice(choice, currentPlayer) {
 	}
 }
 
-// function newGame {
-
-// }
-
 function getChoice(currentPlayer) {
 	let otherPlayer;
 	let isChoiceValid;
 	let choice;
+	player.play("./cctown.mp3", { volume: 20, time: 3 });
 	if (currentPlayer === p1Name) {
 		otherPlayer = p2Name;
 		isChoiceValid = isP1ChoiceValid;
