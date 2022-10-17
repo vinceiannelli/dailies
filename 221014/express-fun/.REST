@@ -1,0 +1,10 @@
+
+GET http://localhost:4000/forest?daylight=true
+
+
+###
+
+POST http://localhost:4000/hello
+Content-Type: application/json
+
+{ "message": "hoolllscvsdflla" }
