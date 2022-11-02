@@ -1,0 +1,194 @@
+{
+    "province": "AB",
+    "centroid": {
+        "coordinates": [
+            -114.04872,
+            51.06703
+        ],
+        "type": "Point"
+    },
+    "representatives_centroid": [
+        {
+            "representative_set_name": "Calgary City Council",
+            "source_url": "http://www.calgary.ca/citycouncil/Pages/Councillors-and-Wards.aspx",
+            "personal_url": "",
+            "party_name": "",
+            "url": "",
+            "photo_url": "http://www.calgary.ca/citycouncil/PublishingImages/Portraits/Nenshi.png",
+            "offices": [],
+            "gender": "",
+            "related": {
+                "boundary_url": "/boundaries/census-subdivisions/4806016/",
+                "representative_set_url": "/representative-sets/calgary-city-council/"
+            },
+            "first_name": "Naheed",
+            "extra": {},
+            "elected_office": "Mayor",
+            "last_name": "Nenshi",
+            "name": "Naheed Nenshi",
+            "email": "themayor@calgary.ca",
+            "district_name": "Calgary"
+        },
+        {
+            "representative_set_name": "Calgary City Council",
+            "source_url": "http://www.calgary.ca/citycouncil/Pages/Councillors-and-Wards.aspx",
+            "personal_url": "",
+            "party_name": "",
+            "url": "",
+            "photo_url": "http://www.calgary.ca/citycouncil/PublishingImages/Portraits/Farrell.png",
+            "offices": [],
+            "gender": "",
+            "related": {
+                "boundary_url": "/boundaries/calgary-wards/ward-7/",
+                "representative_set_url": "/representative-sets/calgary-city-council/"
+            },
+            "first_name": "Druh",
+            "extra": {},
+            "elected_office": "Councillor",
+            "last_name": "Farrell",
+            "name": "Druh Farrell",
+            "email": "",
+            "district_name": "Ward 7"
+        },
+        {
+            "representative_set_name": "House of Commons",
+            "source_url": "https://www.ourcommons.ca/Members/en/search?caucusId=all&province=all",
+            "personal_url": "",
+            "party_name": "Conservative",
+            "url": "https://www.ourcommons.ca/Members/en/len-webber(89116)",
+            "photo_url": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/WebberLen_CPC.jpg",
+            "offices": [
+                {
+                    "tel": "1 613 996-2756",
+                    "postal": "House of Commons\nOttawa ON  K1A 0A6",
+                    "type": "legislature",
+                    "fax": "1 613 996-2756"
+                },
+                {
+                    "tel": "1 403 220-0888",
+                    "postal": "Main office - Calgary\n2020 - 10th Street NW\nCalgary AB  T2M 3M2",
+                    "type": "constituency",
+                    "fax": "1 403 299-8024"
+                }
+            ],
+            "gender": "M",
+            "related": {
+                "boundary_url": "/boundaries/federal-electoral-districts/48005/",
+                "representative_set_url": "/representative-sets/house-of-commons/"
+            },
+            "first_name": "Len",
+            "extra": {
+                "preferred_languages": [
+                    "English"
+                ]
+            },
+            "elected_office": "MP",
+            "last_name": "Webber",
+            "name": "Len Webber",
+            "email": "len.webber@parl.gc.ca",
+            "district_name": "Calgary Confederation"
+        },
+        {
+            "representative_set_name": "Legislative Assembly of Alberta",
+            "source_url": "https://www.assembly.ab.ca/txt/mla_home/contacts.csv",
+            "personal_url": "",
+            "party_name": "United Conservative Party",
+            "url": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0932&legl=30&from=mla_home",
+            "photo_url": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0932.jpg",
+            "offices": [
+                {
+                    "tel": "1 780 643-1039",
+                    "postal": "513B Legislature Building, 10800 - 97 Avenue NW, Edmonton, AB, Canada",
+                    "type": "legislature",
+                    "fax": "1 780 638-3506"
+                },
+                {
+                    "tel": "1 403 216-5430",
+                    "postal": "201, 1055 - 20 Avenue NW, Calgary, AB, Canada",
+                    "type": "constituency",
+                    "fax": "1 403 216-5432"
+                }
+            ],
+            "gender": "",
+            "related": {
+                "boundary_url": "/boundaries/alberta-electoral-districts-2017/calgary-klein/",
+                "representative_set_url": "/representative-sets/alberta-legislature/"
+            },
+            "first_name": "Jeremy",
+            "extra": {},
+            "elected_office": "MLA",
+            "last_name": "Nixon",
+            "name": "Jeremy Nixon",
+            "email": "Calgary.Klein@assembly.ab.ca",
+            "district_name": "Calgary-Klein"
+        }
+    ],
+    "code": "T2E1K6",
+    "boundaries_centroid": [
+        {
+            "external_id": "15",
+            "url": "/boundaries/alberta-electoral-districts-2017/calgary-klein/",
+            "related": {
+                "boundary_set_url": "/boundary-sets/alberta-electoral-districts-2017/"
+            },
+            "boundary_set_name": "Alberta electoral district",
+            "name": "Calgary-Klein"
+        },
+        {
+            "external_id": "48005",
+            "url": "/boundaries/federal-electoral-districts/48005/",
+            "related": {
+                "boundary_set_url": "/boundary-sets/federal-electoral-districts/"
+            },
+            "boundary_set_name": "Federal electoral district",
+            "name": "Calgary Confederation"
+        },
+        {
+            "external_id": "7",
+            "url": "/boundaries/calgary-wards/ward-7/",
+            "related": {
+                "boundary_set_url": "/boundary-sets/calgary-wards/"
+            },
+            "boundary_set_name": "Calgary ward",
+            "name": "Ward 7"
+        },
+        {
+            "external_id": "17",
+            "url": "/boundaries/alberta-electoral-districts-2010/calgary-klein/",
+            "related": {
+                "boundary_set_url": "/boundary-sets/alberta-electoral-districts-2010/"
+            },
+            "boundary_set_name": "Alberta electoral district",
+            "name": "Calgary-Klein"
+        },
+        {
+            "external_id": "48003",
+            "url": "/boundaries/federal-electoral-districts-2003-representation-order/48003/",
+            "related": {
+                "boundary_set_url": "/boundary-sets/federal-electoral-districts-2003-representation-order/"
+            },
+            "boundary_set_name": "Federal electoral district",
+            "name": "Calgary Centre-North"
+        },
+        {
+            "external_id": "4806",
+            "url": "/boundaries/census-divisions/4806/",
+            "related": {
+                "boundary_set_url": "/boundary-sets/census-divisions/"
+            },
+            "boundary_set_name": "Census division",
+            "name": "Division No.  6"
+        },
+        {
+            "external_id": "4806016",
+            "url": "/boundaries/census-subdivisions/4806016/",
+            "related": {
+                "boundary_set_url": "/boundary-sets/census-subdivisions/"
+            },
+            "boundary_set_name": "Census subdivision",
+            "name": "Calgary"
+        }
+    ],
+    "city": "Calgary",
+    "boundaries_concordance": []
+}

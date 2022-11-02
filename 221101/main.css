@@ -1,0 +1,58 @@
+body {
+	font-size: 24px;
+	font-family: Andale Mono, monospace;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+img {
+	display: block;
+}
+
+span {
+	font-size: larger;
+}
+
+header > div {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+nav ul > * {
+	flex: auto;
+}
+
+li {
+	border: 1px solid purple;
+}
+
+a {
+	display: block;
+	padding: 1em;
+	background-color: papayawhip;
+	text-decoration: none;
+	text-align: center;
+}
+
+a,
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: white;
+	background-color: purple;
+}
